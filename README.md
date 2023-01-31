@@ -1,5 +1,5 @@
-# dbus-shelly-1pm-pvinverter and shelly pm 1 plus multi-instance
-Integrate Shelly 1PM and shelly pm 1 plus into Victron Energies Venus OS
+# dbus-shelly-1pm-pvinverter multi-instance
+Integrate Shelly 1PM and into Victron Energies Venus OS
 
 https://youtu.be/ki9uB-DL8lA
 
@@ -42,9 +42,9 @@ After that call the install.sh script.
 
 instance1 The following script should do everything for  you:
 ```
-wget https://github.com/Halmand/dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance/archive/refs/heads/main.zip
-unzip main.zip "dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance-main/*" -d /data
-mv /data/dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance-main /data/dbus-shelly-1pm-pvinverter01
+wget https://github.com/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance/archive/refs/heads/main.zip
+unzip main.zip "Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main/*" -d /data
+mv /data/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main /data/dbus-shelly-1pm-pvinverter01
 chmod a+x /data/dbus-shelly-1pm-pvinverter01/install.sh
 /data/dbus-shelly-1pm-pvinverter01/install.sh
 rm main.zip
@@ -53,9 +53,9 @@ rm main.zip
 
 instance2 The following script should do everything for you:
 ```
-wget https://github.com/Halmand/dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance/archive/refs/heads/main.zip
-unzip main.zip "dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance-main/*" -d /data
-mv /data/dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance-main /data/dbus-shelly-1pm-pvinverter02
+wget https://github.com/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance/archive/refs/heads/main.zip
+unzip main.zip "Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main/*" -d /data
+mv /data/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main /data/dbus-shelly-1pm-pvinverter02
 chmod a+x /data/dbus-shelly-1pm-pvinverter02/install.sh
 /data/dbus-shelly-1pm-pvinverter02/install.sh
 rm main.zip
@@ -65,9 +65,9 @@ rm main.zip
 
 instance3 The following script should do everything for you:
 ```
-wget https://github.com/Halmand/dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance/archive/refs/heads/main.zip
-unzip main.zip "dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance-main/*" -d /data
-mv /data/dbus-shelly-1pm-and-pm1-Plus-pvinverter-multi-instance-main /data/dbus-shelly-1pm-pvinverter03
+wget https://github.com/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance/archive/refs/heads/main.zip
+unzip main.zip "Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main/*" -d /data
+mv /data/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main /data/dbus-shelly-1pm-pvinverter03
 chmod a+x /data/dbus-shelly-1pm-pvinverter03/install.sh
 /data/dbus-shelly-1pm-pvinverter03/install.sh
 rm main.zip
