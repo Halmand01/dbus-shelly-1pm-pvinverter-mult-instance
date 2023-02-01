@@ -45,8 +45,8 @@ After that call the install.sh script.
 instance1 The following script should do everything for  you:
 ```
 wget https://github.com/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance/archive/refs/heads/main.zip
-unzip main.zip "Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main/*" -d /data
-mv /data/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main /data/dbus-shelly-1pm-pvinverter01
+unzip main.zip "dbus-shelly-1pm-pvinverter-mult-instance-main/*" -d /data
+mv /data/dbus-shelly-1pm-pvinverter-mult-instance-main /data/dbus-shelly-1pm-pvinverter01
 chmod a+x /data/dbus-shelly-1pm-pvinverter01/install.sh
 /data/dbus-shelly-1pm-pvinverter01/install.sh
 rm main.zip
@@ -56,8 +56,8 @@ rm main.zip
 instance2 The following script should do everything for you:
 ```
 wget https://github.com/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance/archive/refs/heads/main.zip
-unzip main.zip "Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main/*" -d /data
-mv /data/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main /data/dbus-shelly-1pm-pvinverter02
+unzip main.zip "dbus-shelly-1pm-pvinverter-mult-instance-main/*" -d /data
+mv /data/dbus-shelly-1pm-pvinverter-mult-instance-main /data/dbus-shelly-1pm-pvinverter02
 chmod a+x /data/dbus-shelly-1pm-pvinverter02/install.sh
 /data/dbus-shelly-1pm-pvinverter02/install.sh
 rm main.zip
@@ -68,8 +68,8 @@ rm main.zip
 instance3 The following script should do everything for you:
 ```
 wget https://github.com/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance/archive/refs/heads/main.zip
-unzip main.zip "Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main/*" -d /data
-mv /data/Halmand01/dbus-shelly-1pm-pvinverter-mult-instance-main /data/dbus-shelly-1pm-pvinverter03
+unzip main.zip "dbus-shelly-1pm-pvinverter-mult-instance-main/*" -d /data
+mv /data/dbus-shelly-1pm-pvinverter-mult-instance-main /data/dbus-shelly-1pm-pvinverter03
 chmod a+x /data/dbus-shelly-1pm-pvinverter03/install.sh
 /data/dbus-shelly-1pm-pvinverter03/install.sh
 rm main.zip
