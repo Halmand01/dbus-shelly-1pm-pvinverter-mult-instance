@@ -5,6 +5,7 @@ PM1 = https://youtu.be/ki9uB-DL8lA
 
 PM1 PLUS = https://youtu.be/4lI5X2ZwxUE
 
+
 ## Purpose
 With the scripts in this repo it should be easy possible to install, uninstall, restart a service that connects the Shelly 1PM to the VenusOS and GX devices from Victron.
 Idea is inspired on @fabian-lauer project linked below.
