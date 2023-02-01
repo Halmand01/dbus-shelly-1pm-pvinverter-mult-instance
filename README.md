@@ -80,10 +80,6 @@ rm main.zip
 ### Change config.ini
 Within the project there is a file `/data/dbus-shelly-1pm-pvinverter01/config.ini` or `/data/dbus-shelly-1pm-pvinverter02/config.ini` or `/data/dbus-shelly-1pm-pvinverter03/config.ini` - just change the values - most important is the deviceinstance, custom name and phase under "DEFAULT" and host, username and password in section "ONPREMISE". More details below:
 
-Uninstall:  `/data/dbus-shelly-1pm-pvinverter01/uninstall.sh` 
-            `/data/dbus-shelly-1pm-pvinverter02/uninstall.sh`
-            `/data/dbus-shelly-1pm-pvinverter03/uninstall.sh`
-
 
 | Section  | Config vlaue | Explanation |
 | ------------- | ------------- | ------------- |
@@ -96,7 +92,23 @@ Uninstall:  `/data/dbus-shelly-1pm-pvinverter01/uninstall.sh`
 | ONPREMISE  | Username | Username for htaccess login - leave blank if no username/password required |
 | ONPREMISE  | Password | Password for htaccess login - leave blank if no username/password required |
 
+## Uninstall:
 
+instace 1 
+```
+/data/dbus-shelly-1pm-pvinverter01/uninstall.sh
+rm -r /data/dbus-shelly-1pm-pvinverter01
+```
+instace 2
+```
+/data/dbus-shelly-1pm-pvinverter02/uninstall.sh
+rm -r /data/dbus-shelly-1pm-pvinverter02
+```
+instace 3
+```
+/data/dbus-shelly-1pm-pvinverter03/uninstall.sh
+rm -r /data/dbus-shelly-1pm-pvinverter03
+```
 
 ## Used documentation
 - https://github.com/victronenergy/venus/wiki/dbus#pv-inverters   DBus paths for Victron namespace
